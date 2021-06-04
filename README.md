@@ -59,7 +59,7 @@ However, when you have multiple variables to log, you end up with more `deb2` an
 
 ```cpp
 #define deb(x) cout << #x << " " << x 
-#define deb2(x) cout << #x << " " << x << " "  << #y << " " << y 
+#define deb2(x, y) cout << #x << " " << x << " "  << #y << " " << y 
 #define deb3(x, y, z) cout << #x << " " << x << " "  << #y << " " << y << " "  << #z << " " << z 
 ```
 
